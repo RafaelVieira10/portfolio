@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.containerInicio {
+    background-color: #1F242D;
+    display: flex;
+    align-items: center;
+}
+.divContatos a {
+    background-color: #00EEFF;
+    border-radius: 50px;
+    padding: 10px;
+}
