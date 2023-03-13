@@ -17,6 +17,7 @@
     margin-left: 30px;
     color: #fff;
     text-decoration: none;
+    font-weight: 800;
 }
 .listHeader {
     margin-right: 30px;
@@ -29,4 +30,12 @@
 .navList a:hover {
     color: #00EEFF;
     border-bottom: 2px solid #00EEFF;
+}
+
+
+@media (max-width: 1000px)
+{
+    .listHeader {
+    display: none;
+   }
 }
