@@ -38,3 +38,11 @@
     font-size: 20px;
     font-weight: bold;
 }
+
+
+@media (max-width: 360px)
+{
+    .divImage {
+    display: none;
+   }
+}

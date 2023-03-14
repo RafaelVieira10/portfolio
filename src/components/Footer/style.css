@@ -1,0 +1,12 @@
+.containerFooter {
+    background-color: #1F242D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 105px;
+    color: #fff;
+    font: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+}

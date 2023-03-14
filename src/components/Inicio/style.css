@@ -13,7 +13,6 @@
     min-height: 100vh;
 
 }
-
 .textInicio p{
     color: #fff;
     font-weight: bold;
@@ -30,20 +29,20 @@
     font-size: 20px;
 }
 .imgInicio {
-    width: 366px;
-    height: 366px;
+    width: 400px;
+    height: 400px;
 }
 .divContatos {
     margin-top: 35px;
+    width: 150px;
 }
 .divContatos a {
-    width: 26px;
-    height: 22px;
+    width: 30px;
+    height: 30px;
     background-color: #00EEFF;
     border-radius: 50%;
-    padding: 8px;
+    padding: 10px;
     margin-right: 15px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 .divContatos a img {
@@ -62,8 +61,11 @@
     color: #1F242D;
     font-weight: bold;
     font-size: 16px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+}
+.botaoCurriculo:hover {
+    background-color: #1F242D;
+    color: #fff;
+    border: 2px solid #00EEFF;
 }
 
 

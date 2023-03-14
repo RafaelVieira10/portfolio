@@ -1,21 +1,17 @@
 import "./style.css";
-// import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
 import elchurras from "../../assets/elchurras.png";
 import receitech from "../../assets/receitech.png";
 import hydedesk from "../../assets/hydedesk.jpeg";
 import login from '../../assets/login.png';
+import chatBot from '../../assets/chatBot.png';
 
 function Projetos() {
   return (
-    <div className="containerProjetos">
+    <div className="contentProjetos">
       <div className="divTitle">
         <h2>Projetos</h2>
       </div>
-
-      <div className="containerCarrosel">
-        {/* <Slider {...settings}> */}
+      <div className="containerProjetos">
         <div className="cardProjetos">
           <a
             href="https://github.com/RafaelVieira10/elchurras"
@@ -35,11 +31,15 @@ function Projetos() {
           </a>
         </div>
         <div className="cardProjetos">
-          <a href="https://rafaelvieira10.github.io/Login/" target="_blank">
+          <a href="https://github.com/RafaelVieira10/ChatBot" target="_blank">
             <img src={login} alt=""></img>
           </a>
         </div>
-        {/* </Slider> */}
+        <div className="cardProjetos">
+          <a href="https://rafaelvieira10.github.io/Login/" target="_blank">
+            <img src={chatBot} alt=""></img>
+          </a>
+        </div>
       </div>
     </div>
   );
