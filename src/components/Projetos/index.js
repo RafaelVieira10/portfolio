@@ -2,42 +2,12 @@ import "./style.css";
 // import Slider from "react-slick";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
+import elchurras from "../../assets/elchurras.png";
+import receitech from "../../assets/receitech.png";
+import hydedesk from "../../assets/hydedesk.jpeg";
+import login from '../../assets/login.png';
 
 function Projetos() {
-  // const settings = {
-  //   dots: true,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 3,
-  //   slidesToScroll: 3,
-  //   initialSlide: 0,
-  //   responsive: [
-  //     {
-  //       breakpoint: 1200,
-  //       settings: {
-  //         slidesToShow: 2,
-  //         slidesToScroll: 2,
-  //         dots: true,
-  //       },
-  //     },
-  //     {
-  //       breakpoint: 600,
-  //       settings: {
-  //         slidesToShow: 2,
-  //         slidesToScroll: 2,
-  //         initialSlide: 2,
-  //       },
-  //     },
-  //     {
-  //       breakpoint: 480,
-  //       settings: {
-  //         slidesToShow: 1,
-  //         slidesToScroll: 1,
-  //       },
-  //     },
-  //   ],
-  // };
-
   return (
     <div className="containerProjetos">
       <div className="divTitle">
@@ -46,15 +16,29 @@ function Projetos() {
 
       <div className="containerCarrosel">
         {/* <Slider {...settings}> */}
-          <div>
-            <h3>1</h3>
-          </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
+        <div className="cardProjetos">
+          <a
+            href="https://github.com/RafaelVieira10/elchurras"
+            target="_blank"
+          >
+            <img src={elchurras} alt=""></img>
+          </a>
+        </div>
+        <div className="cardProjetos">
+          <a href="https://github.com/RafaelVieira10/app-receitas" target="_blank">
+            <img src={receitech} alt=""></img>
+          </a>
+        </div>
+        <div className="cardProjetos">
+          <a href="https://github.com/RafaelVieira10/hyde_desk-mobile" target="_blank">
+            <img src={hydedesk} alt=""></img>
+          </a>
+        </div>
+        <div className="cardProjetos">
+          <a href="https://rafaelvieira10.github.io/Login/" target="_blank">
+            <img src={login} alt=""></img>
+          </a>
+        </div>
         {/* </Slider> */}
       </div>
     </div>
