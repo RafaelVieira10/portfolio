@@ -1,10 +1,12 @@
 import React from "react";
+import Inicio from "../Inicio";
+import Sobre from "../Sobre";
 import './style.css'
 
 
 function Header() {
   return (
-    <div className="container">
+    <div className="container" id="header">
       <div className="divLogo">
         <a href="#" className="logo">
             RV
@@ -12,10 +14,20 @@ function Header() {
       </div>
       <div className="listHeader">
         <nav className="navList">
-            <a href="#">Ínicio</a>
-            <a href="#">Sobre</a>
-            <a href="#">Projetos</a>
-            <a href="#">Habilidades</a>
+            <ul>
+              <li>
+                <a href="#header">Ínicio</a>
+              </li>
+              <li>
+                <a href="#sobre">Sobre</a>
+              </li>
+              <li>
+                <a href="#projetos">Projetos</a>
+              </li>
+              <li>
+                <a href="#habilidades">Habilidades</a>
+              </li>
+            </ul>
         </nav>
       </div>
     </div>

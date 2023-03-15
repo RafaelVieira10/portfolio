@@ -4,12 +4,13 @@ import cv from "../../assets/cv.pdf";
 import github from "../../assets/github.png";
 import gmail from "../../assets/gmail.png";
 import linkedin from "../../assets/linkedin.png";
+import arrow from "../../assets/arrow.png";
 
 
 
 function Inicio() {
   return (
-    <div className="containerInicio">
+    <div className="containerInicio" id="inicio">
       <div className="textInicio">
         <p>Olá, sou</p>
         <p>Rafael Vieira</p>
@@ -34,6 +35,12 @@ function Inicio() {
       </div>
       <div className="divImg">
         <img src={imgInicio} alt="" className="imgInicio"></img>
+      </div>
+
+      <div className="backTop">
+        <a href="#header">
+          <img src={arrow}></img>
+        </a> 
       </div>
     </div>
   );

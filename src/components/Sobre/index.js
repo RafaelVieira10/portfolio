@@ -3,7 +3,7 @@ import imgRafa from '../../assets/rafael-portfolio.png'
 
 function Sobre() {
     return (
-        <div className="containerSobre">
+        <div className="containerSobre" id='sobre'>
             <div className='divImage'>
                 <img src={imgRafa} alt=''></img>
             </div>

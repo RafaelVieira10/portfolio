@@ -22,10 +22,17 @@
 .listHeader {
     margin-right: 30px;
 }
-.navList a {
+.navList ul {
+    display: flex;
+}
+.navList ul li {
+    list-style: none;  
+}
+.navList ul li a {
     text-decoration: none;
     color: #fff;
     padding: 20px;
+    cursor: pointer;
 }
 .navList a:hover {
     color: #00EEFF;

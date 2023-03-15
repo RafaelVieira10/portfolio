@@ -7,7 +7,7 @@ import react from '../../assets/react.png'
 
 function Habilidades() {
     return(
-        <div className='contentHabilidades'>
+        <div className='contentHabilidades' id='habilidades'>
             <div class="containerConhecimento">
                     <h2>Habilidades</h2>
                     <div class="conhecimentos-ul">
