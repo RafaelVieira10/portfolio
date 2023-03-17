@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 .container {
+    /* position: fixed;
+    width: 100vw; */
     height: 90px;
     background-color: #1F242D;
     display: flex;

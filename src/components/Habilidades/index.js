@@ -4,6 +4,7 @@ import css from '../../assets/css.png'
 import javascript from '../../assets/javascript.png'
 import python from '../../assets/python.png'
 import react from '../../assets/react.png'
+import csharp from '../../assets/csharp.png'
 
 function Habilidades() {
     return(
@@ -17,6 +18,9 @@ function Habilidades() {
                                 <div class="barra-content">
                                     <div class="barra">
                                         <div class="barra2 fifty"></div>
+                                        <div className='divPorcent'>
+                                            <p>50%</p>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -25,6 +29,9 @@ function Habilidades() {
                                 <div class="barra-content">
                                     <div class="barra">
                                         <div class="barra2 fifty"></div>
+                                        <div className='divPorcent'>
+                                            <p>50%</p>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -33,6 +40,9 @@ function Habilidades() {
                                 <div class="barra-content">
                                     <div class="barra">
                                         <div class="barra2 fourty"></div>
+                                        <div className='divPorcent'>
+                                            <p>40%</p>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -41,6 +51,9 @@ function Habilidades() {
                                 <div class="barra-content">
                                     <div class="barra">
                                         <div class="barra2 fourty"></div>
+                                        <div className='divPorcent'>
+                                            <p>40%</p>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -49,6 +62,20 @@ function Habilidades() {
                                 <div class="barra-content">
                                     <div class="barra">
                                         <div class="barra2 thirty"></div>
+                                        <div className='divPorcent'>
+                                            <p>30%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <img src={csharp} alt="C#"/>
+                                <div class="barra-content">
+                                    <div class="barra">
+                                        <div class="barra2 thirty"></div>
+                                        <div className='divPorcent'>
+                                            <p>30%</p>
+                                        </div>
                                     </div>
                                 </div>
                             </li>

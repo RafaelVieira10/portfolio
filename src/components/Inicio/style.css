@@ -11,6 +11,11 @@
     justify-content: space-around;
     padding: 20px;
     min-height: 100vh;
+}
+.textInicio {
+    border: 3px inset #00EEFF;
+    padding: 40px;
+    box-shadow: 10px 5px 5px black;
 
 }
 .textInicio p{
@@ -31,10 +36,10 @@
 .imgInicio {
     width: 400px;
     height: 400px;
+    /* animation: go-back 1s infinite alternate; */
 }
 .divContatos {
     margin-top: 35px;
-    width: 150px;
 }
 .divContatos a {
     width: 30px;
@@ -68,19 +73,23 @@
     border: 2px solid #00EEFF;
 }
 
-.backTop {
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    background-color: #fff;
-    border-radius: 50%;
-}
-.backTop img {
-    width: 30px;
-    height: 30px;
-    padding: 5px;
+
+@media (max-width: 680px)
+{
+    .divImg {
+    display: none;
+   }
 }
 
-.backTopFalse {
-    display: none;
+@keyframes go-back {
+    0% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
+
+
+
+

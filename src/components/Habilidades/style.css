@@ -1,6 +1,6 @@
 .contentHabilidades {
     background-color: #323946;
-    min-height: 600px;
+    min-height: 700px;
 }
 
 .containerConhecimento {
@@ -32,6 +32,8 @@
 
 .conhecimentos-ul ul li img {
     padding-right: 10px;
+    width: 74px;
+    height: 64px;
 }
 
 .barra-content {
@@ -46,12 +48,20 @@
     background-color: #fff;
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;  
 }
-.barra p {
-    margin-right: 0%;
+.divPorcent{
+    padding: 5px;
 }
-
+.divPorcent p {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;  
+    color: #000;
+    font-weight: 500;
+    height: 15px;
+}
 .barra2 {
     height: 100%;
     border-radius: 10px;

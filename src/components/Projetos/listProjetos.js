@@ -29,6 +29,6 @@ export const projetos = {
         nome: "Acme Clima",
         link: "https://github.com/RafaelVieira10/app-clima",
         img: "acmeClima",
-      }
+      },
     ]
 }
