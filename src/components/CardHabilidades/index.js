@@ -11,7 +11,7 @@ const img = {
 }
 
 function CardHabilidades(habilidade) {
-    console.log(img[habilidade.projeto.img])
+    console.log(habilidade.projeto.barra)
     return(
            <div class="conhecimentos-ul">
                         <ul>
@@ -19,7 +19,7 @@ function CardHabilidades(habilidade) {
                                 <img src={img[habilidade.projeto.img]} alt="HTML"/>
                                 <div class="barra-content">
                                     <div class="barra">
-                                        <div class="barra2 "></div>
+                                    <div className={`barra2 ${habilidade.projeto.barra}`}></div>
                                         <div className='divPorcent'>
                                             <p>{habilidade.projeto.porcentagem}</p>
                                         </div>
