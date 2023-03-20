@@ -1,6 +1,6 @@
 .contentHabilidades {
     background-color: #323946;
-    min-height: 700px;
+    min-height: 750px;
 }
 
 .containerConhecimento {
@@ -17,63 +17,3 @@
     font-size: 32px;
     text-align: center;
 }
-
-.conhecimentos-ul {
-    padding: 20px 0;
-    max-width: 570px;
-    margin: 20px auto;
-
-}
-.conhecimentos-ul ul li {
-    display: flex;
-    align-items: center;
-    padding: 10px 0;
-}
-
-.conhecimentos-ul ul li img {
-    padding-right: 10px;
-    width: 74px;
-    height: 64px;
-}
-
-.barra-content {
-    max-width: 500px;
-    width: 100%;
-}
-
-.barra {
-    width: 100%;
-    height: 15px;
-    border-radius: 10px;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;  
-}
-.divPorcent{
-    padding: 5px;
-}
-.divPorcent p {
-    display: flex;
-    align-items: center;
-    font-size: 0.8rem;
-    font-family: 'Poppins', sans-serif;  
-    color: #000;
-    font-weight: 500;
-    height: 15px;
-}
-.barra2 {
-    height: 100%;
-    border-radius: 10px;
-    background: #00EEFF;
-}
-.fourty {
-    width: 40%;
-}
-.fifty {
-    width: 50%;
-}
-.thirty {
-    width: 30%;
-}
-
