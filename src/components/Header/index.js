@@ -16,7 +16,7 @@ function Header() {
         <nav className="navList">
             <ul>
               <li>
-                <a href="#header">Ínicio</a>
+                <a href="#header">Início</a>
               </li>
               <li>
                 <a href="#sobre">Sobre</a>
