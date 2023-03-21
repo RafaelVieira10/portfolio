@@ -5,7 +5,7 @@ import javascript from '../../assets/javascript.png'
 import python from '../../assets/python.png'
 import react from '../../assets/react.png'
 import csharp from '../../assets/csharp.png'
-import { habilidades } from './listHabilidades'
+import { habilidades } from '../ListaHabilidades/listHabilidades'
 import CardHabilidades from '../CardHabilidades'
 
 function Habilidades() {

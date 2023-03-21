@@ -1,5 +1,5 @@
 import './style.css'
-import {listHabilidades} from '../Habilidades/listHabilidades'
+import ListaHabilidades from '../ListaHabilidades/listHabilidades'
 
 const img = {
     html: require("../../assets/html.png"),
@@ -11,7 +11,6 @@ const img = {
 }
 
 function CardHabilidades(habilidade) {
-    console.log(img[habilidade.projeto.img])
     return(
            <div class="conhecimentos-ul">
                         <ul>
@@ -19,7 +18,7 @@ function CardHabilidades(habilidade) {
                                 <img src={img[habilidade.projeto.img]} alt="HTML"/>
                                 <div class="barra-content">
                                     <div class="barra">
-                                        <div class="barra2 "></div>
+                                        <div class={`barra2 ${habilidade.projeto.barra}`}></div>
                                         <div className='divPorcent'>
                                             <p>{habilidade.projeto.porcentagem}</p>
                                         </div>

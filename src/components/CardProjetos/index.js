@@ -1,4 +1,4 @@
-import { projetos } from '../Projetos/listProjetos';
+import { projetos } from '../ListaProjetos/listProjetos';
 import './style.css'
 
 const img = {

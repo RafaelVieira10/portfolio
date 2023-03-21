@@ -1,6 +1,6 @@
 import "./style.css";
 import CardProjetos from "../CardProjetos";
-import { projetos } from "./listProjetos";
+import { projetos } from "../ListaProjetos/listProjetos";
 
 
 
