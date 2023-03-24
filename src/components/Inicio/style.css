@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: space-around;
     padding: 20px;
-    height: 60vh;
+    min-height: 60vh;
 }
 .textInicio {
     max-width: 300px;
