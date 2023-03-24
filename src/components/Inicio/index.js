@@ -16,13 +16,13 @@ function Inicio() {
         <p>Desenvolvedor Web</p>
 
         <div className="divContatos">
-          <a href="https://www.linkedin.com/feed/" target="_blank">
+          <a href="https://www.linkedin.com/in/rafael-vieira-4a666b221/" alt="Linkedin" target="_blank">
           <img src={linkedin} ></img>
           </a>
-          <a href="https://github.com/RafaelVieira10" target="_blank">
+          <a href="https://github.com/RafaelVieira10" alt="GitHub" target="_blank">
             <img src={github} ></img>
           </a>
-          <a href="https://www.instagram.com/rafael.vieira11/" target="_blank">
+          <a href="https://www.instagram.com/rafael.vieira11/" alt="Instagram" target="_blank">
             <img src={instagram} ></img>
           </a>
         </div>

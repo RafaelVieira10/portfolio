@@ -31,7 +31,9 @@
 .divTextSobre p {
     font-family: 'Poppins', sans-serif;
     color: #fff;
-    font-weight: 400;
+    /* font-weight: 400; */
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 .divTextSobre p:nth-child(2){
     color: #00EEFF;
@@ -40,7 +42,7 @@
 }
 
 
-@media (max-width: 360px)
+@media (max-width: 870px)
 {
     .divImage {
     display: none;

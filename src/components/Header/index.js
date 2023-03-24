@@ -35,10 +35,9 @@ function Header() {
         </a>
       </div>
       <div className="listHeader">
-        {/* <nav className={`navList ${abrir}`} id="navList" > */}
         <ul className={`navList ${abrir}`} id="navList">
           <li>
-            <a href="#header" onClick={fecharMenu}>
+            <a href="/" onClick={fecharMenu}>
               Ínicio
             </a>
           </li>
@@ -58,12 +57,12 @@ function Header() {
             </a>
           </li>
         </ul>
+        
         <div className={`menu-mobile ${buttoX}`} onClick={abrirMenu}>
           <div className="linha1"></div>
           <div className="linha2"></div>
           <div className="linha3"></div>
         </div>
-        {/* </nav> */}
       </div>
     </div>
   );
