@@ -13,6 +13,8 @@
     min-height: 100vh;
 }
 .textInicio {
+    max-width: 300px;
+    width: 100%;
     border: 3px inset #00EEFF;
     padding: 40px;
     box-shadow: 10px 5px 5px black;

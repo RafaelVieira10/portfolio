@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 .contentProjetos {
     background-color: #1F242D;
-    min-height: 660px; 
+    min-height: 800px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,52 +16,7 @@
     font-size: 32px;
     text-align: center;
 }
-/* .containerProjetos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 50px;
-    width: 100%;
-    margin-top: 5%;
-    padding: 30px;
-}
-.cardProjetos {
-    transition: 0.5s;
-    border-radius: 10px;
-    padding: 20px;
-    border: 2px solid #323946;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.cardProjetos img {
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
-}
-.cardProjetos:hover {
-    transform: scale(1.05);
-    transition: 0.5s;
-} */
-/* .divCard {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 50px;
-    width: 100%;
-    margin-top: 5%;
-    padding: 30px;
-}
-.card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 50px;
-    width: 100%;
-    margin-top: 5%;
-    padding: 30px;
-} */
+
 .divCard {
     display: flex;
     align-items: center;
